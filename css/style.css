@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Libertinus Mono", monospace;
+  color: rgb(8, 59, 95);
+}
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: #fafa84;
+  background: linear-gradient(
+      90deg,
+      rgba(250, 250, 132, 0.115) 22%,
+      rgba(242, 236, 189, 0.66) 55%
+    ),
+    url(../photo/cake1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  height: 80px;
+  border-radius: 50px;
+  background: rgba(238, 236, 147, 0.333);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.banner-content {
+  position: absolute;
+  right: 0;
+}
