@@ -20,6 +20,7 @@ header {
     url(../photo/cake1.jpg);
   background-size: cover;
   background-position: 50% 50%;
+  padding-top: 20px;
 }
 nav {
   width: 80%;
@@ -31,12 +32,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 60px;
+  padding: 0 40px;
+  z-index: 999;
 }
 .nav-items {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 12px;
 }
 .logo {
   display: flex;
@@ -46,4 +48,28 @@ nav {
 .banner-content {
   position: absolute;
   right: 0;
+  width: 50%;
+  min-height: 75vh;
+  border: none;
+  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  gap: 15px;
+}
+.btn-group {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 8px 20px;
+  background: rgb(120, 159, 69);
+  border-radius: 30px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+}
+.menu {
+  display: none;
 }
