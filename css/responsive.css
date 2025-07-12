@@ -28,7 +28,7 @@
   transform: scale(1);*/
 }
 .banner-content {
-  width: 45%;
+  width: 50%;
   background: #ecc17800;
   padding-left: 40px;
 }
@@ -41,4 +41,15 @@
 }
 .about-image {
   margin-top: 2%;
+}
+.menu-section {
+  flex-direction: row;
+  gap: 20px;
+}
+testimonials-section {
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.contact-container {
+  grid-template-columns: 1fr;
 }
