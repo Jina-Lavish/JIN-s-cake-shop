@@ -32,3 +32,13 @@
   background: #ecc17800;
   padding-left: 40px;
 }
+.section {
+  padding: 50;
+}
+.about-section {
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.about-image {
+  margin-top: 2%;
+}
